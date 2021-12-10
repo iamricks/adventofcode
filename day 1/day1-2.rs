@@ -24,7 +24,6 @@ fn main() {
 
             if current_window > previous_window {
                 increases += 1;
-                println!("Increased");
             }
 
             let reader = BufReader::new(File::open("input").expect("Cannot open file"));
